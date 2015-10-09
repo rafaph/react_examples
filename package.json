@@ -1,0 +1,44 @@
+{
+  "private": true,
+  "name": "react_examples",
+  "version": "1.0.0",
+  "description": "a set of react examples",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rafaph/react_examples.git"
+  },
+  "keywords": [
+    "react"
+  ],
+  "author": {
+    "name": "Raphael Castro",
+    "email": "rafaphcastro@gmail.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rafaph/react_examples/issues"
+  },
+  "homepage": "https://github.com/rafaph/react_examples#readme",
+  "devDependencies": {
+    "babelify": "^6.3.0",
+    "browserify": "^11.2.0",
+    "del": "^2.0.2",
+    "gulp": "^3.9.0",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-uglify": "^1.4.1",
+    "gulp-util": "^3.0.6",
+    "gulp-webserver": "^0.9.1",
+    "react": "^0.14.0",
+    "react-dom": "^0.14.0",
+    "require-dir": "^0.3.0",
+    "vinyl-buffer": "^1.0.0",
+    "vinyl-source-stream": "^1.1.0",
+    "yargs": "^3.26.0"
+  },
+  "dependencies": {
+    "jquery": "^2.1.4"
+  }
+}
