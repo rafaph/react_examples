@@ -8,8 +8,8 @@ var Table = React.createClass({
 
         return(
         	<table className="table table-hover">
-            	<Thead titles={this.props.titles} key={1}/>
-            	<Tbody keys={this.props.keys} data={this.props.data} key={2}/>
+            	<Thead titles={this.props.titles} />
+            	<Tbody keys={this.props.keys} data={this.props.data}/>
             </table>
         );
     }
